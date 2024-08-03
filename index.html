@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      body {
+        background-image: url(./tm-catalyst-bg.jpg);
+        width: 100%;
+      }
+
+      .container {
+        width: 100%;
+      }
+      .subcontainer1 {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .Nagendra1 {
+        color: white;
+      }
+      .Tamil {
+        color: white;
+        font-size: 36px;
+      }
+
+      .subcontainer2 {
+        background-color: white;
+        padding-bottom: 50px;
+        width: 100%;
+        margin-top: 0px;
+      }
+      .coc {
+        color: blueviolet;
+        text-align: center;
+        padding: 20px;
+      }
+      .jocker {
+        color: black;
+        font-size: 16px;
+      }
+      .ragu {
+        color: cyan;
+        text-align: center;
+        padding: 20px;
+      }
+      .subcontainer3 {
+        background-color: black;
+        opacity: 0.8;
+      }
+      h2 {
+        color: aquamarine;
+        padding-top: 30px;
+        margin-left: 40px;
+      }
+      .Nagendra1 {
+        font-size: 16px;
+      }
+      .con {
+        height: 30px;
+        width: 120px;
+        background-color: red;
+        color: white;
+        text-align: center;
+        margin-left: 200px;
+      }
+      .subcontainer4 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: white;
+      }
+      .con-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        width: 50vw;
+        gap: 0px;
+        padding: 20px 0px;
+      }
+      .img1 {
+        width: 150px;
+        border-width: 0px 10px 10px 0px;
+        border-style: solid;
+        border-color: rgb(105, 102, 102);
+      }
+      .img2 {
+        width: 150px;
+        border-width: 10px 10px 0px 0px;
+        border-style: solid;
+        border-color: maroon;
+      }
+
+      .subcontainer5 {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        /* background-color: black; */
+        opacity: 0.8;
+      }
+      .box1 {
+        height: 40vh;
+        width: 80vw;
+        background-color: maroon;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .Manoj {
+        color: white;
+      }
+      .nani1 {
+        text-align: center;
+
+        height: auto;
+        width: 80%;
+        background-color: white;
+      }
+      .Nani {
+        padding: 20px 0px;
+      }
+      .Mark {
+        width: 50px;
+      }
+      .can {
+        font-size: 16px;
+        color: black;
+      }
+      .subcontainer6 {
+        width: 100%;
+        height: 60vh;
+
+        background-color: black;
+
+        opacity: 0.8;
+        padding: 15px;
+      }
+      .chandra {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 30px 0px;
+        color: white;
+      }
+      .subcontainer7 {
+        padding: 20px 0px;
+        background-color: white;
+      }
+      .kick {
+        border: 0px solid;
+        height: 30px;
+        width: 120px;
+        background-color: rgb(205, 21, 21);
+        margin-left: 200px;
+      }
+      @media screen and (min-width: 500px) and (max-width: 990px) {
+        .img12 {
+          width: 250px;
+        }
+        .subcontainer1,
+        .subcontainer2 {
+          display: flex;
+          /* flex-direction: column; */
+          align-items: center;
+          justify-content: center;
+        }
+        .jocker,
+        .Nagendra1 {
+          padding: 30px 30px;
+        }
+        .subcontainer6 {
+          padding: 0px 100px;
+        }
+        .con-img {
+          gap: 9px;
+        }
+      }
+      @media screen and (min-width: 991px) {
+        .subcontainer1,
+        .subcontainer2 {
+          height: 60vh;
+          width: 40vw;
+        }
+        .what {
+          display: flex;
+        }
+        .container {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 70px 0px;
+        }
+        .jocker {
+          font-size: 20px;
+          text-align: center;
+        }
+        .subcontainer2 {
+          padding: 90px 5px;
+        }
+        .subcontainer3,
+        .subcontainer4 {
+          height: 190vh;
+          width: 40vw;
+        }
+
+        .her {
+          display: flex;
+        }
+        .subcontainer3 {
+          padding: 90px 60px;
+        }
+        .Nagendra1 {
+          font-size: 20px;
+        }
+        .img12 {
+          width: 90%;
+       
+        }
+        .con-img {
+          display: flex;
+          justify-content: center;
+          padding: 0px 10px;
+          margin-top: 25%;
+
+
+          width: 100%;
+        }
+        .nani1 {
+          display: flex;
+          width: 76%;
+          height: 70vh;
+          background-color: white;
+          z-index: 1;
+        }
+        .Nani {
+          width: 280px;
+          font-size: 20px;
+        }
+        .Mark {
+          width: 100px;
+        }
+        .can {
+          font-size: 20px;
+          padding: 40px 30px;
+          text-align: left;
+        }
+        .Mark1 {
+          width: 150px;
+        }
+        .subcontainer5 {
+          margin-top: -90vh;
+          width: 100%;
+          height: 90vh;
+        }
+        .box1 {
+          width: 70%;
+        }
+        .nani1 {
+          width: 89%;
+        }
+
+        .subcontainer6,
+        .subcontainer7 {
+          height: 60vh;
+          width: 40vw;
+          /* margin-top: 20.9%; */
+        }
+        .sav {
+          display: flex;
+        }
+        .subcontainer7 {
+          padding: 30px 30px;
+        }
+        .con {
+          margin-top: 10%;
+          margin-left: 60%;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        .container {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-content: center;
+          align-items: center;
+          width: 100%;
+        }
+        .img12 {
+          width: 100px;
+          gap: 5px 5px;
+        }
+        .subcontainer5 {
+          height: 125vh;
+          background-color: black;
+          opacity: 0.8;
+        }
+        .jocker,
+        .Nagendra1 {
+          padding: 20px;
+        }
+        .con-img {
+          gap: 7px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="what">
+        <div class="subcontainer1">
+          <img
+            width="150px"
+            class="Nagendra"
+            src="https://tse2.mm.bing.net/th?id=OIP.K4g7IHnf3xaXPcch2heiLQHaHa&pid=Api&P=0&h=180"
+          />
+          <p class="Tamil" style="margin-left: -10px"><b>CATALYST</b></p>
+        </div>
+
+        <div class="subcontainer2">
+          <div>
+            <h2 class="coc">01. Welcome</h2>
+
+            <p class="jocker">
+              sed tempus,quam vitae vitae lobortis vulputate,sapien nisi
+              ultrices metus,in eleifind ipsum mauris eget magna.Nullam massa
+              nisi,pellentesque eu pretium quis,puluvinar a nulla.sed tempus
+              finibus lacus vestibulum condimentum nibb blandit vel
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="her">
+        <div class="subcontainer3">
+          <div>
+            <h2 class="ragu">.02 Mauris viverra</h2>
+
+            <p class="Nagendra1">
+              Morbi vestibulum convallis dui in tristique neque malesuada
+              eleifiend sollicitudin in dapibus blandit congue.sed auam
+              nulla,pellentesque egetmetus eu,sollicitudian sodales nisi integer
+              tepmus id lectus quis curus.<br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              rerum ut esse doloremque illum reiciendis! Rerum cupiditate neque
+              quae qui, pariatur nisi unde, ex, totam dolore sequi ipsam velit
+              veniam.
+            </p>
+            <button class="con">Read more</button>
+          </div>
+        </div>
+        <div class="subcontainer4">
+          <div class="con-img">
+            <div class="fleximg">
+              <img class="img1 img12" src="./tm-img-1 (1).jpg" />
+              <img class="img2 img12" src="./tm-img-2 (1).jpg" />
+            </div>
+            <div class="fleximg">
+              <img class="img2 img12" src="./tm-img-3 (1).jpg" />
+              <img class="img1 img12" src="./tm-img-4 (1).jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subcontainer5">
+        <div class="box1">
+          <h2 class="Manoj">.03 Morbi vehicula suscipit</h2>
+          <div class="nani1">
+            <div class="Nani">
+              <img
+                class="Mark Mark1"
+                src="https://png.pngtree.com/png-clipart/20230923/original/pngtree-vector-icon-of-a-chat-symbol-with-voice-speech-bubble-representing-png-image_12548420.png"
+              />
+
+              <p class="can">
+                Curabitur ornare pulivinar sapien,accumsam malesuada mauris
+                ultricies non.sed id tempor arcu.pellentseque tortor sapien mole
+                stie at purus vitae, blandit
+              </p>
+            </div>
+            <div class="Nani">
+              <img
+                class="Mark"
+                src="https://www.shareicon.net/data/512x512/2016/06/12/779616_computer_512x512.png"
+              />
+
+              <p class="can">
+                Curabitur ornare pulivinar sapien,accumsam malesuada mauris
+                ultricies non.sed id tempor arcu.pellentseque tortor sapien mole
+                stie at purus vitae,blandit pretium dolor.
+              </p>
+            </div>
+            <div class="Nani">
+              <img
+                class="Mark"
+                src="https://cdn-icons-png.flaticon.com/512/711/711759.png"
+              />
+              <p class="can">
+                Curabitur ornare pulivinar sapien,accumsam malesuada mauris
+                ultricies non.sed id tempor arcu.pellentseque tortor sapien mole
+                stie at purus vitae,blandit pretium dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="main">
+        <div class="dummy1 dummy"></div>
+        <div class="dummy2 dummy"></div>
+    </div> -->
+      <div class="sav">
+        <div class="subcontainer6">
+          <h2 class="hhh">04. Contact info</h2>
+          <p class="chandra">
+            In depibus blandit congue sed quam nulla eu, sollicitudiansodales
+            nisl. integer quls curus.<br /><br />
+            Tel:6464644654<br />
+            Fax:06054454545<br />
+            Email:Info@gmail.com
+          </p>
+        </div>
+
+        <div class="subcontainer7">
+          <input
+            style="width: 100%; height: 30px"
+            placeholder="YourName"
+            type="text"
+            class="dud"
+          />
+
+          <br /><br /><input
+            style="width: 100%; height: 30px"
+            placeholder="Email"
+            type="email"
+            class="dud"
+          />
+
+          <br /><br /><input
+            style="width: 100%; height: 80px"
+            placeholder="Message"
+            type="text"
+            id="Bhargi"
+            class="dud"
+          />
+          <br />
+          <br /><button class="kick">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
